@@ -1,0 +1,34 @@
+/* responsive.css */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .featured-movies {
+        flex-direction: column; /* Stack movie cards vertically */
+        align-items: center;    /* Center the movie cards */
+    }
+
+    .movie-card {
+        width: 90%; /* Make the movie card take 90% of the width on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 15px;
+    }
+
+    .movie-card {
+        width: 95%; /* Make the movie card take 95% of the width on very small screens */
+    }
+}
+
