@@ -87,3 +87,32 @@ footer {
         margin: 10px 0;
     }
 }
+
+
+.cinema-legends {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.cinema-legends h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cinema-legends .director {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cinema-legends .director img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cinema-legends .director p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 600px;
+}

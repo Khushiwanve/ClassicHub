@@ -3,7 +3,7 @@
 -- Create the movies table
 CREATE TABLE movies (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(255) NOT NULL,
+    title VARCHAR(255)NOT NULL,
     year INT NOT NULL,
     description TEXT,
     genre VARCHAR(100),
